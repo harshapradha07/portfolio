@@ -1,6 +1,6 @@
 import SectionWrapper from "./SectionWrapper";
 import SectionTitle from "./SectionTitle";
-import { Shield } from "lucide-react";
+import { Shield, Linkedin } from "lucide-react";
 
 const AboutSection = () => (
   <SectionWrapper id="about">
@@ -13,6 +13,20 @@ const AboutSection = () => (
         </p>
       </div>
     </div>
+
+    {/* LinkedIn CTA */}
+    <a
+      href="https://www.linkedin.com/in/chintala-k-l-s-harshapradha-35a1b6299/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="glass-card mt-6 p-4 max-w-3xl mx-auto flex items-center gap-3 hover:border-primary/40 transition-all group"
+      style={{ borderColor: "hsl(210 80% 55% / 0.25)", boxShadow: "0 0 12px hsl(210 80% 55% / 0.1)" }}
+    >
+      <Linkedin className="shrink-0 group-hover:scale-110 transition-transform" size={20} style={{ color: "hsl(210 80% 60%)" }} />
+      <p className="text-sm text-muted-foreground font-body">
+        Connect with me on LinkedIn to view my professional experience, certifications, and cybersecurity journey.
+      </p>
+    </a>
   </SectionWrapper>
 );
 

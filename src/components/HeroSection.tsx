@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Download, Mail } from "lucide-react";
+import { ArrowDown, Download, Mail, Linkedin } from "lucide-react";
 import profileImg from "@/assets/profile.jpeg";
 
 const HeroSection = () => (
@@ -60,6 +60,9 @@ const HeroSection = () => (
         </a>
         <a href="/assets/CH_K_L_S_Harshapradha_Resume.pdf" download="CH_K_L_S_Harshapradha_Resume.pdf" className="glass-card neon-glow px-6 py-3 font-heading text-sm tracking-wider text-primary hover:bg-primary/10 hover:scale-105 transition-all flex items-center gap-2">
           <Download size={16} /> Download Resume
+        </a>
+        <a href="https://www.linkedin.com/in/chintala-k-l-s-harshapradha-35a1b6299/" target="_blank" rel="noopener noreferrer" className="glass-card px-6 py-3 font-heading text-sm tracking-wider hover:scale-105 transition-all flex items-center gap-2" style={{ borderColor: "hsl(210 80% 55% / 0.4)", color: "hsl(210 80% 60%)", boxShadow: "0 0 15px hsl(210 80% 55% / 0.2)" }}>
+          <Linkedin size={16} /> LinkedIn Profile
         </a>
       </motion.div>
     </div>
