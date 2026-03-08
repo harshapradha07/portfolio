@@ -49,18 +49,6 @@ const CertificationsSection = () => {
         />
 
         <div className="flex flex-col md:flex-row">
-          {/* Certificate image */}
-          <div
-            className="md:w-72 shrink-0 overflow-hidden bg-muted/30 cursor-pointer"
-            onClick={() => setLightboxOpen(true)}
-          >
-            <img
-              src={isc2CertImg}
-              alt="ISC2 Certified in Cybersecurity (CC)"
-              className="w-full h-48 md:h-full object-cover group-hover:scale-105 transition-transform duration-500"
-            />
-          </div>
-
           {/* Content */}
           <div className="p-6 md:p-8 flex-1">
             <div className="flex flex-wrap items-center gap-2 mb-3">
