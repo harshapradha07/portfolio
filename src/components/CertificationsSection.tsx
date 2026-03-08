@@ -3,7 +3,7 @@ import { useState } from "react";
 import SectionWrapper from "./SectionWrapper";
 import SectionTitle from "./SectionTitle";
 import { Award, Shield, Brain, Cloud, Bug, Settings, Terminal, Network, Container, ExternalLink, X, BadgeCheck } from "lucide-react";
-import isc2CertImg from "@/assets/isc2-cert.jpeg";
+import isc2CertImg from "@/assets/isc2-cert.png";
 
 const certs = [
   { name: "Python for Data Science", issuer: "NPTEL", icon: Terminal, badge: "🐍 Python", desc: "Python programming, data analysis, and scientific computing.", color: "primary" },
