@@ -58,7 +58,7 @@ const HeroSection = () => (
         <a href="#contact" className="glass-card neon-glow-purple px-6 py-3 font-heading text-sm tracking-wider text-secondary hover:bg-secondary/10 transition-all flex items-center gap-2">
           <Mail size={16} /> Contact Me
         </a>
-        <a href="#" className="glass-card px-6 py-3 font-heading text-sm tracking-wider text-foreground hover:bg-muted transition-all flex items-center gap-2">
+        <a href="/assets/CH_K_L_S_Harshapradha_Resume.pdf" download="CH_K_L_S_Harshapradha_Resume.pdf" className="glass-card neon-glow px-6 py-3 font-heading text-sm tracking-wider text-primary hover:bg-primary/10 hover:scale-105 transition-all flex items-center gap-2">
           <Download size={16} /> Download Resume
         </a>
       </motion.div>
