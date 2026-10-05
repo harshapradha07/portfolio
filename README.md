@@ -12,13 +12,13 @@ There are several ways of editing your application.
 
 Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+Changes made by a Lovable will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
 If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+The only requirement is to having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 Follow these steps:
 
@@ -45,7 +45,7 @@ npm run dev
 **Use GitHub Codespaces**
 
 - Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
+- Click on the "CODE" button (green button) near the top right.
 - Select the "Codespaces" tab.
 - Click on "New codespace" to launch a new Codespace environment.
 - Edit files directly within the Codespace and commit and push your changes once you're done.
